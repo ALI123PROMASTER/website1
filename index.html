@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SweetLife - Домашнее кафе с атмосферой уюта</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://emojitool.com/img/facebook/15.0/shortcake-2219.png"
+    type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🍰</span>
+                SweetLife
+            </a>
+            <input type="checkbox" id="menu-checkbox" class="menu-toggle-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Главная</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Сладкие моменты жизни</h1>
+            <p>Домашнее кафе с атмосферой уюта и изысканными десертами ручной работы</p>
+            <a href="#menu" class="btn">Наше меню</a>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О нашем кафе</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                        alt="Уютный интерьер кафе SweetLife">
+                </div>
+                <div class="about-text">
+                    <h2>Наша история</h2>
+                    <p>Кафе SweetLife было основано в 2015 году как место, где каждый гость может почувствовать себя как
+                        дома. Наша миссия — создавать не просто десерты, а настоящие произведения кондитерского
+                        искусства, которые дарят радость и вдохновение.</p>
+                    <p>Мы гордимся тем, что используем только натуральные ингредиенты местных производителей. Наши
+                        кондитеры с многолетним опытом создают уникальные рецепты, сочетая классические традиции и
+                        современные тренды.</p>
+                    <p>В уютной атмосфере нашего кафе можно насладиться не только вкуснейшими десертами, но и ароматным
+                        кофе, приготовленным из отборных сортов зерен. Мы создали пространство, где приятно провести
+                        время с близкими или поработать в спокойной обстановке.</p>
+                    <a href="#contacts" class="btn">Забронировать столик</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Наше меню</h2>
+            <div class="menu-grid">
+                <!-- Меню карточка 1 -->
+                <div class="menu-card">
+                    <img src="https://img.freepik.com/free-photo/sweet-homemade-layered-honey-cake-with-spices-nuts_114579-20660.jpg"
+                        alt="Торт 'Медовик'" width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Торт "Медовик"</h3>
+                        <p>Нежные медовые коржи с классическим сметанным кремом</p>
+                        <span class="price">1650 ₸</span>
+                    </div>
+                </div>
+
+                <!-- Меню карточка 2 -->
+                <div class="menu-card">
+                    <img src="https://img.freepik.com/free-photo/strawberry-cheesecake-side-view_140725-11353.jpg"
+                        alt="Чизкейк Нью-Йорк" width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Чизкейк Нью-Йорк</h3>
+                        <p>Классический американский чизкейк с нежной текстурой и ягодным соусом</p>
+                        <span class="price">2200 ₸</span>
+                    </div>
+                </div>
+
+                <!-- Меню карточка 3 -->
+                <div class="menu-card">
+                    <img src="https://img.freepik.com/premium-photo/spoon-with-piece-panna-cotta-with-syrup-raspberries-mint-oval-plate_131350-482.jpg"
+                        alt="Панна-котта с малиной" width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Панна-котта с малиной</h3>
+                        <p>Нежный итальянский десерт с соусом из свежей малины</p>
+                        <span class="price">1800 ₸</span>
+                    </div>
+                </div>
+
+                <!-- Меню карточка 4 -->
+                <div class="menu-card">
+                    <img src="https://eda.ru/images/RecipePhoto/620x415/gorjachij-shokoladnij-tort_16300_photo_1493.webp"
+                        alt="Шоколадный фондан" width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Шоколадный фондан</h3>
+                        <p>Горячий шоколадный торт с жидкой сердцевиной и ванильным мороженым</p>
+                        <span class="price">2600 ₸</span>
+                    </div>
+                </div>
+
+                <!-- Меню карточка 5 -->
+                <div class="menu-card">
+                    <img src="https://img.freepik.com/free-photo/macaroons_74190-2658.jpg" alt="Макарон ассорти"
+                        width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Макарон ассорти</h3>
+                        <p>Набор из 5 французских макарон разных вкусов</p>
+                        <span class="price">750 ₸</span>
+                    </div>
+                </div>
+
+                <!-- Меню карточка 6 -->
+                <div class="menu-card">
+                    <img src="https://img.freepik.com/premium-photo/tiramisu-classic-italian-dessert-glass-with-stone-backdrop-savoiardi-mascarpone-dessert-with-coffee-taste-that-is-sprinkled-with-chocolate-powder_872147-16207.jpg"
+                        alt="Тирамису" width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Тирамису</h3>
+                        <p>Классический итальянский десерт с кофейным ароматом и маскарпоне</p>
+                        <span class="price">1990 ₸</span>
+                    </div>
+                </div>
+
+                <!-- Меню карточка 7 -->
+                <div class="menu-card">
+                    <img src="https://img.freepik.com/free-photo/delicious-healthy-snack-with-various-fruit_23-2148825029.jpg"
+                        alt="Фруктовый салат" width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Фруктовый салат</h3>
+                        <p>Свежие сезонные фрукты с медово-йогуртовым соусом</p>
+                        <span class="price">2900 ₸</span>
+                    </div>
+                </div>
+
+                <!-- Меню карточка 8 -->
+                <div class="menu-card">
+                    <img src="https://img.freepik.com/free-photo/collection-cupcakes-with-different-flavours_1232-340.jpg"
+                        alt="Капкейки" width="300" height="250">
+                    <div class="menu-content">
+                        <h3>Капкейки ассорти</h3>
+                        <p>Набор из 3 разных капкейков разных вкусов с нежной глазурью</p>
+                        <span class="price">1200 ₸</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts section -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-container">
+                <div class="map-container">
+                    <div>
+                        <h3>Наш адрес</h3>
+                        <p>г. Алматы, ул. Сладкая, д. 15</p>
+                        <p>Пн-Вс: 10:00 - 22:00</p>
+                        <p>Тел: +7 (727) 123-45-67</p>
+                        <p>Email: info@sweetlife-cafe.ru</p>
+                        <br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11621.98401808007!2d76.95278305!3d43.26198355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skz!4v1762968209739!5m2!1sru!2skz" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="booking-form">
+                    <h3>Забронировать столик</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Дата посещения</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Время</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Количество гостей</label>
+                            <select id="guests" name="guests" required>
+                                <option value="1">1 гость</option>
+                                <option value="2" selected>2 гостя</option>
+                                <option value="3">3 гостя</option>
+                                <option value="4">4 гостя</option>
+                                <option value="5">5 гостей</option>
+                                <option value="6+">6+ гостей</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Дополнительные пожелания</label>
+                            <textarea id="message" name="message"
+                                placeholder="Сообщите о пожеланиях к бронированию"></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Забронировать</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SweetLife</h3>
+                    <p>Домашнее кафе с атмосферой уюта и изысканными десертами ручной работы.</p>
+                    <p>Мы создаем не просто десерты, а настоящие произведения кондитерского искусства.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <img src="https://www.bing.com/th/id/OIP._-N0rPk3XBfnfR9ZvP892wHaHa?w=191&h=211&c=8&rs=1&qlt=90&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" class="social-icon">
+                        </a>
+                        <a href="#" class="social-link" aria-label="Telegram">
+                            <img src="https://www.bing.com/th/id/OIP.KvlrpgOzjZR1Z3Z6aPvYmwHaEK?w=272&h=211&c=8&rs=1&qlt=90&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="Telegram" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Меню</h3>
+                    <a href="#menu">Торты</a>
+                    <a href="#menu">Пирожные</a>
+                    <a href="#menu">Десерты</a>
+                    <a href="#menu">Кофе и напитки</a>
+                    <a href="#menu">Сезонные предложения</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <p>г. Алматы, ул. Сладкая, д. 15</p>
+                    <p>Тел: +7 (727) 123-45-67</p>
+                    <p>Email: info@sweetlife-cafe.ru</p>
+                    <p>Пн-Вс: 10:00 - 22:00</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Новости</h3>
+                    <p>Подпишитесь на нашу рассылку и получайте новости о новых десертах и акциях</p>
+                    <form class="newsletter-form" action="#" method="post">
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш email" required>
+                        </div>
+                        <button type="submit" class="btn">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 SweetLife Café. Все права защищены. Создано с любовью к десертам.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
