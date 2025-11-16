@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SweetLife - Домашнее кафе с атмосферой уюта</title>
+    <title>Каталог десертов - SweetLife</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -12,107 +12,32 @@
 </head>
 
 <body>
-    <!-- Header with navigation -->
     <header>
         <div class="container header-container">
-            <a href="#home" class="logo">
+            <a href="index.html" class="logo">
                 <span class="logo-icon">🍰</span>
                 SweetLife
             </a>
-            <input type="checkbox" id="menu-checkbox" class="menu-toggle-checkbox">
-            <label for="menu-checkbox" class="menu-toggle">
+            <input type="checkbox" id="menu-checkbox-catalog" class="menu-toggle-checkbox">
+            <label for="menu-checkbox-catalog" class="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
             <nav>
                 <ul>
-                    <li><a href="#home" class="active">Главная</a></li>
+                    <li><a href="index.html">Главная</a></li>
                     <li><a href="catalog.html">Каталог</a></li>
                     <li><a href="services.html">Услуги</a></li>
                     <li><a href="news.html">Новости</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero section -->
-    <section class="hero" id="home">
-        <div class="container hero-content">
-            <h1>Сладкие моменты жизни</h1>
-            <p>Домашнее кафе с атмосферой уюта и изысканными десертами ручной работы</p>
-            <a href="catalog.html" class="btn">Наше меню</a>
-        </div>
-    </section>
-
-    <!-- About section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">О нашем кафе</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Уютный интерьер кафе SweetLife">
-                </div>
-                <div class="about-text">
-                    <h2>Наша история</h2>
-                    <p>Кафе SweetLife было основано в 2015 году как место, где каждый гость может почувствовать себя как дома. Наша миссия — создавать не просто десерты, а настоящие произведения кондитерского искусства, которые дарят радость и вдохновение.</p>
-                    <p>Мы гордимся тем, что используем только натуральные ингредиенты местных производителей. Наши кондитеры с многолетним опытом создают уникальные рецепты, сочетая классические традиции и современные тренды.</p>
-                    <p>В уютной атмосфере нашего кафе можно насладиться не только вкуснейшими десертами, но и ароматным кофе, приготовленным из отборных сортов зерен. Мы создали пространство, где приятно провести время с близкими или поработать в спокойной обстановке.</p>
-                    <a href="#contacts" class="btn">Забронировать столик</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Menu section (теперь ссылка на каталог) -->
-    <section id="menu" class="menu">
-        <div class="container">
-            <h2 class="section-title">Наши десерты</h2>
-            <p class="section-description">Ознакомьтесь с нашим полным ассортиментом на странице <a href="catalog.html">Каталог</a>.</p>
-            <div class="menu-grid">
-                <!-- Оставим 4 карточки для главной страницы -->
-                <div class="menu-card">
-                    <img src="https://img.freepik.com/free-photo/sweet-homemade-layered-honey-cake-with-spices-nuts_114579-20660.jpg" alt="Торт 'Медовик'" width="300" height="250">
-                    <div class="menu-content">
-                        <h3>Торт "Медовик"</h3>
-                        <p>Нежные медовые коржи с классическим сметанным кремом</p>
-                        <span class="price">1650 ₸</span>
-                    </div>
-                </div>
-                <div class="menu-card">
-                    <img src="https://img.freepik.com/free-photo/strawberry-cheesecake-side-view_140725-11353.jpg" alt="Чизкейк Нью-Йорк" width="300" height="250">
-                    <div class="menu-content">
-                        <h3>Чизкейк Нью-Йорк</h3>
-                        <p>Классический американский чизкейк с нежной текстурой и ягодным соусом</p>
-                        <span class="price">2200 ₸</span>
-                    </div>
-                </div>
-                <div class="menu-card">
-                    <img src="https://img.freepik.com/premium-photo/spoon-with-piece-panna-cotta-with-syrup-raspberries-mint-oval-plate_131350-482.jpg" alt="Панна-котта с малиной" width="300" height="250">
-                    <div class="menu-content">
-                        <h3>Панна-котта с малиной</h3>
-                        <p>Нежный итальянский десерт с соусом из свежей малины</p>
-                        <span class="price">1800 ₸</span>
-                    </div>
-                </div>
-                <div class="menu-card">
-                    <img src="https://eda.ru/images/RecipePhoto/620x415/gorjachij-shokoladnij-tort_16300_photo_1493.webp" alt="Шоколадный фондан" width="300" height="250">
-                    <div class="menu-content">
-                        <h3>Шоколадный фондан</h3>
-                        <p>Горячий шоколадный торт с жидкой сердцевиной и ванильным мороженым</p>
-                        <span class="price">2600 ₸</span>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 30px;">
-                <a href="catalog.html" class="btn">Посмотреть всё меню</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contacts section -->
-    <section id="contacts" class="contacts">
+    <main>
+<section id="contacts" class="contacts">
         <div class="container">
             <h2 class="section-title">Контакты</h2>
             <div class="contacts-container">
@@ -167,8 +92,8 @@
             </div>
         </div>
     </section>
+</main>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
