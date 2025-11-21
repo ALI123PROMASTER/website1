@@ -462,7 +462,7 @@ nav a.active::after {
 /* Services и News Intro */
 .services-intro,
 .news-intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1507048331197-8c8ebd5b7f8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://img.freepik.com/premium-photo/3d-rendering-cubes-word-news_771335-29609.jpghttps://img.freepik.com/free-photo/top-view-fake-news-message_23-2148876029.jpghttps://img.freepik.com/premium-photo/digital-device-screen-mockup-with-laptop-smartphone-with-gradient-wallpapers_1170794-292333.jpg') center/cover no-repeat;
     padding: 100px 0;
     text-align: center;
     color: white;
