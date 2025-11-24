@@ -135,10 +135,8 @@ header {
     display: flex;
     align-items: center;
 }
-
-.logo-icon {
-    margin-right: 10px;
-    font-size: 32px;
+.logo img {
+width: 50px;
 }
 
 nav ul {
