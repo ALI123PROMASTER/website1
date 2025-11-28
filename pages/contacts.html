@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты - SweetLife</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-   <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -37,63 +39,67 @@
     </header>
 
     <main>
-<section id="contacts" class="contacts">
-        <div class="container">
-            <h2 class="section-title">Контакты</h2>
-            <div class="contacts-container">
-                <div class="map-container">
-                    <div>
-                        <h3>Наш адрес</h3>
-                        <p>г. Алматы, ул. Сладкая, д. 15</p>
-                        <p>Пн-Вс: 10:00 - 22:00</p>
-                        <p>Тел: +7 (727) 123-45-67</p>
-                        <p>Email: info@sweetlife-cafe.ru</p>
-                        <br>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11621.98401808007!2d76.95278305!3d43.26198355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skz!4v1762968209739!5m2!1sru!2skz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <div class="contacts-container">
+                    <div class="map-container">
+                        <div>
+                            <h3>Наш адрес</h3>
+                            <p>г. Алматы, ул. Сладкая, д. 15</p>
+                            <p>Пн-Вс: 10:00 - 22:00</p>
+                            <p>Тел: +7 (727) 123-45-67</p>
+                            <p>Email: info@sweetlife-cafe.ru</p>
+                            <br>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11621.98401808007!2d76.95278305!3d43.26198355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skz!4v1762968209739!5m2!1sru!2skz"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="booking-form">
+                        <h3>Забронировать столик</h3>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Дата посещения</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Время</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Количество гостей</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="" selected disabled>Выберите количество гостей</option>
+                                    <option value="1">1 гость</option>
+                                    <option value="2">2 гостя</option>
+                                    <option value="3">3 гостя</option>
+                                    <option value="4">4 гостя</option>
+                                    <option value="5">5 гостей</option>
+                                    <option value="6+">6+ гостей</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Дополнительные пожелания</label>
+                                <textarea id="message" name="message"
+                                    placeholder="Сообщите о пожеланиях к бронированию"></textarea>
+                            </div>
+                            <button type="submit" class="btn submit-btn">Забронировать</button>
+                        </form>
                     </div>
                 </div>
-                <div class="booking-form">
-                    <h3>Забронировать столик</h3>
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <label for="name">Ваше имя</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Телефон</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="date">Дата посещения</label>
-                            <input type="date" id="date" name="date" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="time">Время</label>
-                            <input type="time" id="time" name="time" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="guests">Количество гостей</label>
-                            <select id="guests" name="guests" required>
-                                <option value="" selected disabled>Выберите количество гостей</option>
-                                <option value="1">1 гость</option>
-                                <option value="2">2 гостя</option>
-                                <option value="3">3 гостя</option>
-                                <option value="4">4 гостя</option>
-                                <option value="5">5 гостей</option>
-                                <option value="6+">6+ гостей</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Дополнительные пожелания</label>
-                            <textarea id="message" name="message" placeholder="Сообщите о пожеланиях к бронированию"></textarea>
-                        </div>
-                        <button type="submit" class="btn submit-btn">Забронировать</button>
-                    </form>
-                </div>
             </div>
-        </div>
-    </section>
-</main>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
@@ -104,13 +110,16 @@
                     <p>Мы создаем не просто десерты, а настоящие произведения кондитерского искусства.</p>
                     <div class="social-links">
                         <a href="#" class="social-link" aria-label="Facebook">
-                            <img src="https://www.bing.com/th/id/OIP._-N0rPk3XBfnfR9ZvP892wHaHa?w=191&h=211&c=8&rs=1&qlt=90&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="Facebook" class="social-icon">
+                            <img src="https://www.bing.com/th/id/OIP._-N0rPk3XBfnfR9ZvP892wHaHa?w=191&h=211&c=8&rs=1&qlt=90&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1"
+                                alt="Facebook" class="social-icon">
                         </a>
                         <a href="#" class="social-link" aria-label="Instagram">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" class="social-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                                alt="Instagram" class="social-icon">
                         </a>
                         <a href="#" class="social-link" aria-label="Telegram">
-                            <img src="https://www.bing.com/th/id/OIP.KvlrpgOzjZR1Z3Z6aPvYmwHaEK?w=272&h=211&c=8&rs=1&qlt=90&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="Telegram" class="social-icon">
+                            <img src="https://www.bing.com/th/id/OIP.KvlrpgOzjZR1Z3Z6aPvYmwHaEK?w=272&h=211&c=8&rs=1&qlt=90&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1"
+                                alt="Telegram" class="social-icon">
                         </a>
                     </div>
                 </div>
